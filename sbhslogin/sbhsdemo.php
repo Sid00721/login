@@ -22,7 +22,7 @@
  ini_set('session.gc_maxlifetime', 7200);
   // Your configuration block. Register your app on the Student Portal.
  // Don't leak your Client Secret. If you do, make sure you regenerate it through the Portal.
- $client->redirect_uri  = 'http://localhost/sbhslogin/sbhslogin/sbhsdemo.php';
+ $client->redirect_uri  = 'http://https://logint.vercel.app/sbhslogin/sbhsdemo.php';
  $client->client_id     = '01hyqp54anefh9pam4vcbx5vkm';
  $client->client_secret = 'P76WfAhkJreYu_4VGRtwbf_O_d6m6RiBhcNi_Zd_fcuRSEhnmTUyu8ZOukBSABqIv5_9iXvwT2qD7-N4';
 
