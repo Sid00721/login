@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "sbhslogin/**/*.php", "use": "@vercel/php" }
-  ],
-  "routes": [
-    { "src": "/sbhslogin/(.*)", "dest": "/sbhslogin/$1" }
+    {
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
+    }
   ]
 }
